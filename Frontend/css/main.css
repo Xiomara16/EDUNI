@@ -2,11 +2,16 @@
   /* Celeste */
   background: #27B3D2;
   /* Rectangle 1 */
-  height: 116px;
+  /* height: 116px;
   position: absolute;
   left: 0%;
-  right: 0%;
+  right: 0%; */
   }
+
+.bg-color {
+   background-color: #27B3D2;
+  height: 116px;  
+}
   .container-fluid{
     color: #27B3D2 !important;
   }
@@ -19,14 +24,18 @@
     left: 0%;
     right: 0%;
     }
-  .navbar-brand{
-  position: absolute;
-  left: 9%;
-  right: 0%;
+  .logo-eduni{
+    padding-left: 116px;
   }
-  .navbar-uni{
+  .logo-uni{
     position: absolute;
-    left: 40%;
+    left: 42%;
+    right: 0%;
+  }
+
+  .footer-creditos {
+    position: absolute;
+    left: 8%;
     right: 0%;
   }
   
@@ -67,12 +76,28 @@
     padding-right: 5%;
   }
   
-  #footer-content{
-    padding-top: 35px;
+  .footer-content{
+    padding-top: 30px;
     background: #27B3D2;
+    height: 340px;
   }
+.text-reset {
+  /* Light 20 */
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
   
   .suscribete {
+    font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
     color:#FFFFFF;
-    text-decoration: none;
+  }
+
+  .btn-confirmar {
+    color: white; 
+    background: #27B3D2;
   }

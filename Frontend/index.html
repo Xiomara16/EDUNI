@@ -12,30 +12,78 @@
 
   <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="#page-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid bg-color">
+          <a class="logo-eduni">
             <img src="img/logo blanco.png" width="184" alt="Logo" class="d-inline-block align-text-top">
           </a>
-          <li class="navbar-uni">
+          <a class="logo-uni">
             <img src="img/logo UNI.png" class="d-inline-block align-text-top">
-          </li>
+          </a>
             <ul class="navbar-nav w-100 justify-content-end">
               <li class="navbar-perfil">
                 <img src="img/icono perfil.png" class="d-inline-block align-text-top">
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#login">Iniciar sesion</a>
-              </li> 
+                <a class="nav-link" href="#">Iniciar sesión</a>
+              </li>
               <li class="nav-item cuenta">
-                <a class="nav-link" href="#register">Registrate</a>
+                <a class="nav-link" href="#">Regístrate</a>
               </li>
             </ul>
            </div>
     </div>
-    </nav>
+    </nav> 
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container px-4">
+        <div class="imagenes">
+          <a class="navbar-brand">
+            <img src="img/logo blanco.png" width="184">
+          </a>
+          <a a class="navbar-uni">
+            <img src="img/logo UNI.png">
+          </a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+    </nav> -->
+    <!-- <header class="p-3 bg-color text-white justify-content-center">
+      <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img class="logo-eduni" src="img/logo blanco.png">
+          </a>
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img class="logo-uni" src="img/logo UNI.png">
+          </a>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-right mb-md-0">
+
+          </ul>
+            
+          <div class="text-end cuenta">
+              <ul class="navbar-nav  justify-content-end">
+                <li class="navbar-perfil">
+                  <img src="img/icono perfil.png" class="d-inline-block">
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn me-2 nav-link">Iniciar sesión</button>
+                </li>
+                <li class="nav-item cuenta">
+                  <button type="button" class="btn nav-link">Regístrate</button>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </header> -->
   <!-- Masthead-->
-  <br><br><br> <br><br>
   
     <!-- enlaces -->
     <nav class="navbar2 navbar-expand-lg">
@@ -131,7 +179,7 @@
                         placeholder="Contraseña"/>
                     </div>
                     <div class="cuenta text-left text-lg-start mt-2 pt-1">
-                      <button class="btn btn-light btn-lg btn-block mb-2" type="submit" style="color: white; background: #27B3D2">Regístrate</button>
+                      <button class="btn btn-light btn-lg btn-block mb-2" type="submit" style="color: white; background: #27B3D2">Iniciar sesión</button>
                       <br>
                       <div class="text-body text-left mt-2 pt-2 mb-0">
                         <p>O puedes iniciar sesión con:</p>
@@ -155,27 +203,27 @@
         </div>
       </div>
     </div>
-  </section>
 
   <!-- Footer -->
-<footer class="text-center text-lg-start bg-white text-muted">
+<footer class="footer-content text-center">
   <!-- Section: Links  -->
-  <section id="footer-content">
-    <div class="container text-center text-md-start mt-5">
+  
+    <div class="container text-center text-md-start">
       <!-- Grid row -->
-      <div class="row mt-3">
+      <div class="row mt-1">
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto p-2">
           <!-- Content -->
-          <div class="footer-logo">
-            <img src="img/logo blanco.png" alt="">
-            <img src="img/logo UNI.png" alt="">
+          <div class="btn-group-vertical p-4">
+            <img src="img/logo blanco.png">
+            <br><br>
+            <img src="img/logo UNI.png">
           </div>
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="suscribete col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="suscribete col-md-2 col-lg-2 col-xl-3 mx-auto mb-2 text-decoration-none">
           <!-- Links -->
           <p><a href="#!" class="text-reset">Términos y condiciones</a></p>
           <p><a href="#!" class="text-reset">Políticas de devolución</a></p>
@@ -190,12 +238,14 @@
         <!-- Grid column -->
         <div class="suscribete col-md-4 col-lg-2 col-xl-3 mx-auto mb-md-0 mb-3">
           <!-- Links -->
-          <p>Suscríbete para recibir ofertas y promociones</p>
-          <p>
-           <button></button>
-          </p>
-          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+            <p>Suscríbete para recibir ofertas y promociones</p>              
+              <div class="input-group">
+                <input type="email" class="form-control form-control-lg"
+                placeholder="Email">
+                <button type="button"  class="btn btn-confirmar btn-lg active"> 
+                Enviar
+                </button>
+                </div>   
         </div>
         <!-- Grid column -->
       </div>
@@ -205,13 +255,31 @@
   <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-left p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-    Av. Tupac Amaru N°210 Rímac, Sótano del Pabellón Central de la UNI - Lima, Perú
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="footer-creditos p-4">
+    <div class="row mt-2">
+      <div class="">
+      Av. Tupac Amaru N°210 Rímac, Sótano del Pabellón Central de la UNI - Lima, Perú
+        
+      Siguenos en:
+        <!-- Facebook -->
+        <a href="https://es-la.facebook.com/">
+          <img src="img/facebook.png">
+        </a>
+        <!-- Instagram -->
+        <a href="https://es-la.facebook.com/">
+          <img src="img/instagram.png">
+        </a>
+        <!-- Twitter -->
+        <a href="https://es-la.facebook.com/">
+          <img src="img/twitter.png">
+        </a>
+      </div>
+    </div>
   </div>
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
