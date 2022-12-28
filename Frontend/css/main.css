@@ -1,78 +1,78 @@
 .navbar {
-/* Celeste */
-background: #27B3D2;
-/* Rectangle 1 */
-height: 116px;
-position: absolute;
-left: 0%;
-right: 0%;
-}
-.container-fluid{
-  color: #27B3D2 !important;
-}
-.navbar2 {
   /* Celeste */
-  color: #27B3D2;
+  background: #27B3D2;
   /* Rectangle 1 */
   height: 116px;
   position: absolute;
   left: 0%;
   right: 0%;
   }
-.navbar-brand{
-position: absolute;
-left: 9%;
-right: 0%;
-}
-.navbar-uni{
+  .container-fluid{
+    color: #27B3D2 !important;
+  }
+  .navbar2 {
+    /* Celeste */
+    color: #27B3D2;
+    /* Rectangle 1 */
+    height: 116px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    }
+  .navbar-brand{
   position: absolute;
-  left: 40%;
+  left: 9%;
   right: 0%;
-}
-
-.nav-link {
-  color: #FFFFFF;
-  /* Inicia sesión */
-left: 74.38%;
-right: 17.43%;
-top: 32.43%;
-bottom: 55.01%;
-
-font-weight: 500;
-line-height: 24px;
-}
-
-.Titulo {
-  color: #292B41;
-}
-
-.new_link{
-padding-left: 8%;
-line-height: 10pt;   /* separacion entre lineas */ 
-text-indent: 30pt;   /* para sangrias */ 
-padding-top: 2%;
-
-/* Inter Bold 24 */
-font-family: 'Helvetica';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 2px;
-
-/* Celeste */
-color: #27B3D2;
-}
-
-.cuenta {
-  padding-right: 5%;
-}
-
-#footer-content{
-  padding-top: 35px;
-  background: #27B3D2;
-}
-
-.suscribete {
-  color:#FFFFFF;
-  text-decoration: none;
-}
+  }
+  .navbar-uni{
+    position: absolute;
+    left: 40%;
+    right: 0%;
+  }
+  
+  .nav-link {
+    color: #FFFFFF;
+    /* Inicia sesión */
+  left: 74.38%;
+  right: 17.43%;
+  top: 32.43%;
+  bottom: 55.01%;
+  
+  font-weight: 500;
+  line-height: 24px;
+  }
+  
+  .Titulo {
+    color: #292B41;
+  }
+  
+  .new_link{
+  padding-left: 8%;
+  line-height: 10pt;   /* separacion entre lineas */ 
+  text-indent: 30pt;   /* para sangrias */ 
+  padding-top: 2%;
+  
+  /* Inter Bold 24 */
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 2px;
+  
+  /* Celeste */
+  color: #27B3D2;
+  }
+  
+  .cuenta {
+    padding-right: 5%;
+  }
+  
+  #footer-content{
+    padding-top: 35px;
+    background: #27B3D2;
+  }
+  
+  .suscribete {
+    color:#FFFFFF;
+    text-decoration: none;
+  }
