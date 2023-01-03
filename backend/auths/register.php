@@ -21,7 +21,7 @@ function Registro($email,$clave){
     include_once ("../../conf/conexion.php");
     $conexion=conectar();
 
-    if(obtener_usuario($email)){
+    if(obtener_usuario($email)==0){
         $sqlr="insert into usuario (id, email_uni, pass_uni) values (
 		    NULL,
 			'".$email."',
