@@ -9,78 +9,116 @@
   }
 
 .bg-color {
-   background-color: #27B3D2;
+  background-color: #27B3D2;
   height: 116px;  
 }
-  .container-fluid{
-    color: #27B3D2 !important;
-  }
-  .navbar2 {
-    /* Celeste */
-    color: #27B3D2;
-    /* Rectangle 1 */
-    height: 116px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    }
-  .logo-eduni{
-    padding-left: 116px;
-  }
-  .logo-uni{
-    position: absolute;
-    left: 42%;
-    right: 0%;
-  }
+.container-fluid{
+  color: #27B3D2 !important;
+  margin-right: 180px;
+}
 
-  .footer-creditos {
-    position: absolute;
-    left: 8%;
-    right: 0%;
-  }
+.logo-eduni{
+  padding-left: 116px;
+}
+
+.logo-uni{
+  position: absolute;
+  left: 42%;
+}
   
-  .nav-link {
-    color: #FFFFFF;
-    /* Inicia sesión */
+.login-menu {
+  position: absolute;
+  left: 75%;
+  right: 0%;
+}
+
+.footer-creditos {
+  position: absolute;
+  left: 8%;
+  right: 0%;
+}
+  
+.login {
+  color: #292B41;
+}
+   
+.navbar2 {
+  /* Rectangle 1 */
+  position: absolute;
+  padding-left: 116px;
+  left: 0%;
+  right: 0%;
+}
+
+.cuenta {
+  padding-top: 6%;
+}
+
+.color {
+  /* Celeste */
+  color: #FFFFFF;
+  /* Inicia sesión */
   left: 74.38%;
-  right: 17.43%;
-  top: 32.43%;
-  bottom: 55.01%;
-  
+  right: 17.43%;  
   font-weight: 500;
   line-height: 24px;
-  }
+}
   
-  .Titulo {
-    color: #292B41;
-  }
-  
-  .new_link{
-  padding-left: 8%;
-  line-height: 10pt;   /* separacion entre lineas */ 
-  text-indent: 30pt;   /* para sangrias */ 
-  padding-top: 2%;
-  
+.color-menu {
+  /* Celeste */
+  color: #27B3D2;
   /* Inter Bold 24 */
   font-family: 'Helvetica';
   font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 610;
+  font-size: 22px;
+  padding-top: 28px;
+}
+
+.color-enlace-login {
+  color: #27B3D2; 
+  text-decoration: none;
+  font-weight: 610;
+}
+
+.posicion {
+  padding-block-start: 50px;
+  padding-left: 10px;
+
+}
+
+.tamaño {
+  height: 170px;
+}
+
+.parrafo {
+  /* Adquiere las mejores ofertas y novedades de las publicaciones que realiza la editorial de la UNI sobre ingeniería, arquitectura, matemática, estadística, química, literatura, ciencias sociales y más. */
+
+width: 500px;
+height: 145px;
+
+font-weight: 400;
+font-size: 22px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.new_link{
+  line-height: 10pt;   /* separacion entre lineas */ 
+  text-indent: 30pt;   /* para sangrias */ 
+  padding-top: 4%;
   line-height: 2px;
   
   /* Celeste */
   color: #27B3D2;
-  }
-  
-  .cuenta {
-    padding-right: 5%;
-  }
-  
-  .footer-content{
-    padding-top: 30px;
-    background: #27B3D2;
-    height: 340px;
-  }
+  }  
+.footer-content{
+  padding-top: 30px;
+  background: #27B3D2;
+  height: 340px;
+}
+
 .text-reset {
   /* Light 20 */
   font-weight: 300;
