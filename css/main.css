@@ -88,22 +88,22 @@
 }
 
 .tamaño {
-  height: 170px;
+  height: 540px;
 }
 
 .parrafo {
   /* Adquiere las mejores ofertas y novedades de las publicaciones que realiza la editorial de la UNI sobre ingeniería, arquitectura, matemática, estadística, química, literatura, ciencias sociales y más. */
 
-width: 500px;
+width: 530px;
 height: 145px;
-
+position: absolute; 
+top: 35%; 
 font-weight: 400;
 font-size: 22px;
 line-height: 29px;
-
 color: #000000;
-
 }
+
 .new_link{
   line-height: 10pt;   /* separacion entre lineas */ 
   text-indent: 30pt;   /* para sangrias */ 
@@ -135,7 +135,43 @@ color: #000000;
     color:#FFFFFF;
   }
 
-  .btn-confirmar {
+   .btn-confirmar {
     color: white; 
     background: #27B3D2;
+  }
+
+  .btn-buscar {
+    background: white; 
+    color: #27B3D2;
+    font-weight: 500;
+    border: #27B3D2;
+    
+  }
+  
+  .thumbnail { 
+    position: relative; 
+  } 
+  
+  .largo {
+    width: 500px;
+    padding-top: 20px;
+  }
+  
+  .box-list {
+    padding-top: 40px;
+  }
+  
+  .item {
+    color: #292B41;
+    /* Inter Bold 24 */
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 100;
+    padding-left: 5px;
+    text-decoration: none ;
+  }
+  
+  .tamaño-list {
+    width: 220px;
+    margin-block: 2px;
   }
