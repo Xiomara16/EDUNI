@@ -13,6 +13,11 @@
   height: 116px;
 }
 
+.bg-categoria {
+  background-color: #27B3D2;
+
+}
+
 .container-fluid {
   color: #27B3D2 !important;
   margin-right: 180px;
@@ -149,7 +154,6 @@
   color: #27B3D2;
   font-weight: 500;
   border: #27B3D2;
-
 }
 
 .thumbnail {
@@ -180,6 +184,10 @@
   margin-block: 2px;
 }
 
+.tamaño-buscador {
+  width: 500px;
+}
+
 .bgcabecera {
   background: #27B3D2;
   color: white;
@@ -194,11 +202,9 @@
 
 .letra {
   font-family: 'Helvetica';
-
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   /* src: local(''),
     url('../fonts/Montserrat-Regular.ttf') format('ttf'); */
-
 }
