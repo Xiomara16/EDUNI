@@ -76,100 +76,56 @@
         </div>
     </nav>
 
-    <br><br>
-
-    <aside class="container first">
-        <div class="row pt-3 p-md-5">
-            <div class="col-lg-3">
-                <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
-                    <div class="">
-                      <div class="list-group list-group-flush mx-md-4 mt-4">
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple active" aria-current="true">
-                          <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dad</span>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple">
-                          <i class="fas fa-chart-area fa-fw me-3"></i><span>Webiste traffic</span>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-                            class="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-                            class="fas fa-chart-line fa-fw me-3"></i><span>Analytics</span></a>
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple">
-                          <i class="fas fa-chart-pie fa-fw me-3"></i><span>SEO</span>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-                            class="fas fa-chart-bar fa-fw me-3"></i><span>Orders</span></a>
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-                            class="fas fa-globe fa-fw me-3"></i><span>International</span></a>
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-                            class="fas fa-building fa-fw me-3"></i><span>Partners</span></a>
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-                            class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-                            class="fas fa-users fa-fw me-3"></i><span>Users</span></a>
-                        <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-                            class="fas fa-money-bill fa-fw me-3"></i><span>Sales</span></a>
-                      </div>
-                    </div>
-                  </nav>
-            </div>
-        </div>
-    </aside>
-
     <div class="container-fluid py-5 h-100">
-        <div class="row d-flex justify-content-center align-items-center h-50">
+        <div class="row p-md-3 d-flex justify-content-center align-items-center">
             <div class="col-xl-11">
                 <div class="row">
-                <div class="col-lg-7">
-                <div class="card-body p-md-5 mx-md-3">
-
-                <!-- INICIO SESION -->
-                <div class="login text-left">
-                <h1 class="mt-1 mb-3 pb-1">Iniciar sesión</h1>
-                </div>
-
-                <form action="./backend/auths/login.php"  method="post">
-                <!-- Email input -->
-                <div>
-                <input type="email" id="email" name="email_uni" class="form-control form-control-lg" placeholder="Email" required >
-                </div>
-                <!-- Password input -->
-                <div class="pt-3">
-                <input type="password" id="password" name="pass_uni" class="form-control form-control-lg"  value="" placeholder="Contraseña" required>
-                </div>
-                <!-- Botón Iniciar sesión -->
-                <div class="pt-4">
-                <button class="btn btn-lg btn-confirmar" type="submit">
-                Iniciar sesión
-                </button>
-                <p class="login pt-5">O puedes iniciar sesión con:</p>
-                <button class="btn btn-lg btn-block btn-light mb-3" style="color: white; background-color: #dd4b39;"
-                type="submit">
-                <img src="img/icono google.png">
-                &nbspIngresa con Google &nbsp
-                </button>
-                <br>
-                <button class="btn btn-lg btn-block btn-light mb-3" style="color: white;background-color: #3b5998;" type="submit">
-                <img src="img/icono fb.png">
-                &nbspIngresa con Facebook
-                </button>
-                <p class="text-body mt-2 pt-1 mb-0">
-                ¿No tienes una cuenta? &nbsp
-                <a href="./register.html" class="link-danger; background: #27B3D2 color-enlace-login" >Regístrate</a>
-                </p>
-                </div>
-                </form>
-                </div>  
-                </div>
-                <div class="col-md-7 col-lg-6 col-xl-4">
-                <img src="img/Login imagen.png" class="img-fluid posicion" alt="Login imagen">
-                </div>
+                  <div class="col-lg-3">
+                    <div class="card-body mx-md-3">
+                        <div class="list-group d-inline-block mt-4">
+                          <a class="list-group-item list-group-item-action py-2 ripple disabled">
+                            <img src="img/icono mis pedidos.png" alt="">
+                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Mis Pedidos</span></a>
+                          <a href="#pedidos" class="list-group-item list-group-item-action py-2 ripple">
+                            <i class="fas fa-chart-line fa-fw me-3"></i><span>Seguimiento de pedidos</span></a>
+                          <br>
+                          <a class="list-group-item list-group-item-action py-2 ripple disabled">
+                            <img src="img/icono productos.png" alt="">
+                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Productos Digitales</span></a>
+                          <a href="#librosdigitales" class="list-group-item list-group-item-action py-2 ripple">
+                            <i class="fas fa-lock fa-fw me-3"></i><span>Libros digitales</span></a>
+                          <br> 
+                          <a href="#favoritos" class="list-group-item list-group-item-action py-2 ripple">
+                            <img src="img/icono favoritos.png" alt="">
+                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Favoritos</span></a>
+                          <br>
+                          <a class="list-group-item list-group-item-action py-2 ripple disabled">
+                            <img src="img/icono mis datos.png" alt="">
+                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Mis Datos</span></a>
+                          <a href="#datospersonales" class="list-group-item list-group-item-action py-2 ripple">
+                            <i class="fas fa-lock fa-fw me-3"></i><span>Datos personales</span></a>
+                          <a href="#direcciones" class="list-group-item list-group-item-action py-2 ripple">
+                            <i class="fas fa-lock fa-fw me-3"></i><span>Mis direcciones</span></a>
+                          <a href="#cambioclave" class="list-group-item list-group-item-action py-2 ripple">
+                            <i class="fas fa-lock fa-fw me-3"></i><span>Cambio de clave</span></a>
+                          <a href="#facturacion" class="list-group-item list-group-item-action py-2 ripple">
+                            <i class="fas fa-lock fa-fw me-3"></i><span>Datos de facturación</span></a>
+                          <a href="#cambiaremail" class="list-group-item list-group-item-action py-2 ripple">
+                            <i class="fas fa-lock fa-fw me-3"></i><span>Cambiar email</span></a>
+                          <br>                                  
+                          <a href="#eliminarcuenta" class="list-group-item list-group-item-action py-2 ripple">
+                            <img src="img/icono eliminar.png" alt="">
+                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Eliminar Cuenta</span></a>
+                              
+                        </div>
+                    </div>  
+                  </div>
                 </div>   
             </div>
         </div>
     </div>
           
-      <!-- Footer -->
+  <!-- Footer -->
   <footer class="footer-content">
     <!-- Section: Links  -->  
       <div class="container text-center text-md-start">
