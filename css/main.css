@@ -84,26 +84,13 @@
 }
 
 .posicion {
-  padding-block-start: 50px;
+  padding-block-start: 100px;
   padding-left: 10px;
-
+  justify-content: center;
 }
 
 .tamaño {
   height: 620px;
-}
-
-.parrafo {
-  /* Adquiere las mejores ofertas y novedades de las publicaciones que realiza la editorial de la UNI sobre ingeniería, arquitectura, matemática, estadística, química, literatura, ciencias sociales y más. */
-  width: 530px;
-  height: 145px;
-  position: absolute;
-  top: 35%;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 29px;
-  color: #000000;
-
 }
 
 .new_link {
@@ -157,6 +144,7 @@
 }
 
 .largo {
+  display: flex;
   width: 500px;
   padding-top: 20px;
 }
@@ -230,6 +218,7 @@
   align-items: center;
 }
 
+<<<<<<< HEAD
 img {
   max-height: 100%;
 }
@@ -244,4 +233,10 @@ img {
 .hr {
   height: 100;
   width: 100;
+=======
+
+.parrafo {
+  margin-top: 2rem;
+  font-size: 24px;
+>>>>>>> b3ed8661b358cb3d04654d4d2d647dafda8fc5af
 }
