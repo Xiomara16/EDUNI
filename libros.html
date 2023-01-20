@@ -7,7 +7,7 @@
   
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    
     <!-- Mi estilo CSS -->
     <link rel="stylesheet" href="css/main.css">
 
@@ -76,6 +76,7 @@
         </div>
     </nav>
     
+    <!-- Opción buscar -->
     <div class="container-fluid">
         <div class="row justify-content-center p-md-5">
             <div class="col-md-7 p-md-5">
@@ -91,16 +92,15 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-xl-10">
                 <div class="row">
-                <div class="col-lg-3">
-                    <div class="card-body p-md-2 mx-md-1">
+                    <div class="col-lg-3">
+                        <div class="card-body p-md-2 mx-md-1">
                     
-                    <!-- Categorías -->
-                    <div>
-                        <img src="img/imagen_categoria.png" class="img-fluid posicion" alt="Login imagen">
-                    </div>
-                    <div class="card bg-categoria">
-                        <!-- <img src="img/Rectangle 4.png" class="img-fluid posicion" alt="Login imagen"> -->
-                        <div class="card-img">
+                            <!-- Categorías -->
+                            <div>
+                                <img src="img/imagen_categoria.png" class="img-fluid posicion" alt="Login imagen">
+                            </div>
+                            <div class="card bg-categoria">
+                                <div class="card-img">
                             <div class="box-list">
                                 <!-- card-img-overlay -->
                                 <h1 class="subtitulfiltro login">Categorías</h1>
@@ -168,26 +168,51 @@
                                     </li> 
                                     <li class="nav-item">
                                         <h4><a class="item" href="#">Tecnología e Ingeniería</a></h4>
-                                    </li> 
-                                    
+                                    </li>
                                 </ul>
                             </div>
-                        </div>
+                                </div>
+                            </div>                                                       
+                        </div>  
+                    </div>
+                    <!-- MUESTRA DE LIBROS -->
+                    <div class="col-md-7 col-lg-6 col-xl-4">
+                        <h1 class="mt-5 mb-3 pb-1 bgtitulo_celeste">Mostrar Todo</h1>
+                        <hr class="bg-color"> <!-- Falta alargar y engrosar a la línea celeste -->
                         
-                    </div>                                                       
-                </div>  
-            </div>
-                <div class="col-md-7 col-lg-6 col-xl-4">
-                    <h1 class="mt-5 mb-3 pb-1">Mostrar Todo</h1>
-                    <hr class="w-100">
-                </div>
+                        <div id="CatLibros">
+                            
+                            <div class="container-md p-5">
+                                <div class="row pt-5">
+                                    <h3 class="text-center">
+
+                                    </h3>
+                                </div>
+                                    <div class="col-sm">
+                                        <div class="card" style="width: 18rem; height: 35rem;">
+                                            <img src="img/libro1.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h6 class="card-title">VARIABLE COMPLEJA</h6>
+                                                <p class="card-text">P. Canales</p>
+                                                <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="1estrella"></span>
+                                                <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="2estrella"></span>
+                                                <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="3estrella"></span>
+                                                <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="4estrella"></span>
+                                                <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="5estrella"></span>
+                                                <p class="card-text">Teoría y Ejercicios, 2021, Tapa Blanda, Nuevo</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>   
             </div>
         </div>
     </div>
     <!-- Columnas -->
 
-   <!-- Footer -->
+    <!-- Footer -->
     <footer class="footer-content">
         <!-- Section: Links  -->  
         <div class="container text-center text-md-start">
@@ -258,4 +283,21 @@
     <!-- Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
     
+    <!-- Todos los estilos -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+    <!-- Para calificar por estrellas -->
+    <script>
+        var contador;
+        function calificar(item) {
+            console.log(item);
+            contador=item.id[0];
+            let nombre = item.id.substring(1);
+            for(let i=0; i<5; i++){
+                if(i<contador){
+                    document.getElementById((i+1)+nombre).style.color="orange";
+                }
+            }        
+        }
+    </script>
 </body>

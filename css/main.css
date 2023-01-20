@@ -1,6 +1,7 @@
 .navbar {
   /* Celeste */
   background: #27B3D2;
+
 }
 
 .bg-color {
@@ -215,6 +216,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+img {
+  max-height: 100%;
+}
+
+.bgtitulo_celeste {
+  background: white;
+  color: #27B3D2;
+  display: flex;
+  font-size: 40px;
+}
+
+.hr {
+  height: 100;
+  width: 100;
 }
 
 
