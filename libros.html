@@ -184,10 +184,6 @@
                             
                             <div class="container-md p-5">
                                 <div class="row pt-5">
-                                    <h3 class="text-center">
-
-                                    </h3>
-                                </div>
                                     <div class="col-sm">
                                         <div class="card" style="width: 18rem; height: 35rem;">
                                             <img src="img/libro1.png" class="card-img-top" alt="...">
@@ -200,9 +196,22 @@
                                                 <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="4estrella"></span>
                                                 <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="5estrella"></span>
                                                 <p class="card-text">Teoría y Ejercicios, 2021, Tapa Blanda, Nuevo</p>
+                                                <div>
+                                                    <div class="row p-3">
+                                                        <div class="col bgdescuento justify-content-center">
+                                                            <h6>35%<br>dsto.
+                                                            </h6>                                           
+                                                        </div>
+                                                        <div class="col text-end">
+                                                            <sup>S/.</sup><span class="text-dark display-6">44.85</span>
+                                                          </div>
+                                                      </div>
+                                                </div>
                                             </div>
+                                            
                                         </div>
                                     </div>
+                                </div>                                    
                             </div>
                         </div>
                     </div>
@@ -297,7 +306,10 @@
                 if(i<contador){
                     document.getElementById((i+1)+nombre).style.color="orange";
                 }
-            }        
+                else{
+                    document.getElementById((i+1)+nombre).style.color="black";
+                }
+            }    
         }
     </script>
 </body>
