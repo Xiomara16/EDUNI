@@ -91,91 +91,11 @@
     </div>
   </nav>
 
-    <!-- <aside class="container-fluid py-5 h-100">
-        <div class="row p-md-3 d-flex justify-content-center align-items-center">
-            <div class="col-xl-11">
-                <div class="row">
-                  <div class="col-lg-3 text-center">
-                    <div class="card-body mx-md-3">
-                        <div class="list-group d-inline-block mt-5">
-                          <a class="list-group-item list-group-item-action py-2 ripple disabled">
-                            <img src="img/icono mis pedidos.png" alt="">
-                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Mis Pedidos</span></a>
-                          <a href="#pedidos" class="list-group-item list-group-item-action py-2 ripple">
-                            <i class="fas fa-chart-line fa-fw me-3"></i><span>Seguimiento de pedidos</span></a>
-                          <br>
-                          <a class="list-group-item list-group-item-action py-2 ripple disabled">
-                            <img src="img/icono productos.png" alt="">
-                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Productos Digitales</span></a>
-                          <a href="#librosdigitales" class="list-group-item list-group-item-action py-2 ripple">
-                            <i class="fas fa-lock fa-fw me-3"></i><span>Libros digitales</span></a>
-                          <br> 
-                          <a href="favoritos" class="list-group-item list-group-item-action py-2 ripple">
-                            <img src="img/icono favoritos.png" alt="">
-                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Favoritos</span></a>
-                          <br>
-                          <a class="list-group-item list-group-item-action py-2 ripple disabled">
-                            <img src="img/icono mis datos.png" alt="">
-                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Mis Datos</span></a>
-                          <a href="datospersonales" class="list-group-item list-group-item-action py-2 ripple">
-                            <i class="fas fa-lock fa-fw me-3"></i><span>Datos personales</span></a>
-                          <a href="direcciones" class="list-group-item list-group-item-action py-2 ripple">
-                            <i class="fas fa-lock fa-fw me-3"></i><span>Mis direcciones</span></a>
-                          <a href="cambioclave" class="list-group-item list-group-item-action py-2 ripple">
-                            <i class="fas fa-lock fa-fw me-3"></i><span>Cambio de clave</span></a>
-                          <a href="facturacion" class="list-group-item list-group-item-action py-2 ripple">
-                            <i class="fas fa-lock fa-fw me-3"></i><span>Datos de facturación</span></a>
-                          <a href="cambiaremail" class="list-group-item list-group-item-action py-2 ripple">
-                            <i class="fas fa-lock fa-fw me-3"></i><span>Cambiar email</span></a>
-                          <br>                                  
-                          <a href="eliminarcuenta" class="list-group-item list-group-item-action py-2 ripple">
-                            <img src="img/icono eliminar.png" alt="">
-                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Eliminar Cuenta</span></a>      
-                        </div>
-                    </div>  
-                  </div>
-                  <div class="col-lg-8" id="pedidos">
-                    <div class="card-body">
-                        <div class="mt-5">
-                          <h2 class="mt-1 mb-3 pb-1">Seguimiento de Pedido</h2>
-                          <p class="letra">No tienes ningún pedido en curso</p>     
-                          <p class="letra">¿Pagaste un pedido y no aparece a continuación?
-                            <button class="btn btn-lg btn-confirmar" type="submit">
-                              Mi pedido no aparece
-                            </button>
-                          </p>
-                          <form action="post">
-                            <p><span class="fw-bold">Importante:</span> Utiliza este formulario SOLO en caso de que realizaste el pago de un pedido y NO aparezca a continuación. Si el pedido por el cual deseas contactarnos aparece más abajo en esta pantalla, por favor utiliza el botón "Contáctanos" que aparece en ese pedido.</p>
-                          </form>       
-                        </div>
-                    </div>  
-                  </div>
-                  <div class="col-lg-8" id="librosdigitales">
-                    <div class="card-body">
-                        <div class="mt-5">
-                          <h2 class="mt-1 mb-3 pb-1">Productos Digitales</h2>
-                          <p class="letra">No tienes ningún pedido en curso</p>     
-                          <p class="letra">¿Pagaste un pedido y no aparece a continuación?
-                            <button class="btn btn-lg btn-confirmar" type="submit">
-                              Mi pedido no aparece
-                            </button>
-                          </p>
-                          <form action="post">
-                            <p><span class="fw-bold">Importante:</span> Utiliza este formulario SOLO en caso de que realizaste el pago de un pedido y NO aparezca a continuación. Si el pedido por el cual deseas contactarnos aparece más abajo en esta pantalla, por favor utiliza el botón "Contáctanos" que aparece en ese pedido.</p>
-                          </form>       
-                        </div>
-                    </div>  
-                  </div>
-                </div>   
-            </div>
-        </div>
-    </aside> -->
-  
   <!-- Tabla opciones perfil -->
   <section class="main-content">
 		<div class="container">
 			<div class="d-flex bg-white flex-row shadow">
-				<ul class="nav nav-tabs vertical-tab flex-column shadow" id="myTabContent" role="tablist">
+				<ul class="nav nav-tabs vertical-tab flex-column shadow" id="myTab" role="tablist">
 					<li class="nav-item">
 						<a class="nav-link disabled" data-toggle="tab" role="tab">
 							<div class="space-icon d-flex align-items-center justify-content-center mr-3"><img src="img/icono mis pedidos.png" alt=""></div>
@@ -276,27 +196,27 @@
 								<input id="name" name="name" placeholder="Nombres" class="form-control here" required="required" type="text">
 							  </div>
 							</div>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 							  <label for="surname" class="col-4 col-form-label">Apellidos</label> 
 							  <div class="col-8">
 								<input id="surname" name="surname" placeholder="Apellidos" class="form-control here" type="text">
 							  </div>
 							</div>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 							  <label for="email" class="col-4 col-form-label">Email asociado</label> 
 							  <div class="col-8">
 								<input id="email" name="email" placeholder="Email" class="form-control here" required="required" type="text">
 							  </div>
 							</div>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 							  <label for="birthday" class="col-4 col-form-label">Fecha de nacimiento</label> 
 							  <div class="col-8">
 								<input id="birthday" name="birthday" class="form-control here" type="date">
 							  </div>
 							</div>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 							  <div class="offset-4 col-8">
-								<button name="submit" type="submit" class="btn btn-confirmar">Guardar</button>
+								  <button name="submit" type="submit" class="btn btn-confirmar">Guardar</button>
 							  </div>
 							</div>
 						  </form>
@@ -310,7 +230,7 @@
 								<input id="address" name="address" placeholder="Dirección1" class="form-control here" required="required" type="text">
 							  </div>
 							</div>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 								<div class="col-8">
 								  <button name="submit" type="submit" class="btn btn-confirmar">Añadir otra dirección</button>
 								</div>
@@ -326,19 +246,19 @@
 								<input id="pass" name="pass" placeholder="Clave actual" class="form-control here" required="required" type="password">
 							  </div>
 							</div>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 							  <label for="newpass" class="col-4 col-form-label">Nueva clave</label> 
 							  <div class="col-8">
 								<input id="newpass" name="newpass" placeholder="Nueva clave" class="form-control here" required="required" type="password">
 							  </div>
 							</div>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 							  <label for="newpassagain" class="col-4 col-form-label">Reingrese Nueva clave</label> 
 							  <div class="col-8">
 								<input id="newpassagain" name="newpassagain" placeholder="Reingrese su Nueva clave" class="form-control here" required="required" type="password">
 							  </div>
 							</div>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 								<div class="offset-4 col-8">
 								  <button name="submit" type="submit" class="btn btn-confirmar">Guardar</button>
 								</div>
@@ -348,37 +268,37 @@
 					<div class="tab-pane fade" id="facturacion" role="tabpanel" aria-labelledby="tab-seven">
 						<h3>Datos de Facturación</h3> <hr>
 						<form>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 							  <label for="RUC" class="col-4 col-form-label">RUC</label> 
 							  <div class="col-8">
 								<input id="RUC" name="RUC" placeholder="RUC" class="form-control here" required="required" type="text">
 							  </div>
 							</div>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 							  <label for="razonsocial" class="col-4 col-form-label">Razón social</label> 
 							  <div class="col-8">
 								<input id="razonsocial" name="razonsocial" placeholder="Razón social" class="form-control here" required="required" type="text">
 							  </div>
 							</div>
-							<div class="form-group row">
+							<div class="form-group row pt-2">
 								<label for="giro" class="col-4 col-form-label">Giro</label> 
 								<div class="col-8">
 								  <input id="giro" name="giro" placeholder="Giro" class="form-control here" required="required" type="text">
 								</div>
 							  </div>
-							  <div class="form-group row">
+							  <div class="form-group row pt-2">
 								<label for="address" class="col-4 col-form-label">Dirección</label> 
 								<div class="col-8">
 								  <input id="address" name="address" placeholder="Dirección" class="form-control here" required="required" type="text">
 								</div>
 							  </div>
-							  <div class="form-group row">
+							  <div class="form-group row pt-2">
 								<label for="phone" class="col-4 col-form-label">Teléfono</label> 
 								<div class="col-8">
 								  <input id="phone" name="phone" placeholder="Teléfono" class="form-control here" required="required" type="text">
 								</div>
 							  </div>
-							  <div class="form-group row">
+							  <div class="form-group row pt-2">
 								<div class="offset-4 col-8">
 								  <button name="submit" type="submit" class="btn btn-confirmar">Guardar</button>
 								</div>
@@ -415,7 +335,6 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</section>
   <!-- Tabla opciones perfil -->
@@ -495,6 +414,7 @@
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </body>
 </html>
