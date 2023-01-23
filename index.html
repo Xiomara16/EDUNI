@@ -19,31 +19,32 @@
 <body>
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg bg-color">
-      <div class="container-fluid">
-        <div class="row align-items-start">
-          <div class="col-4">
+    <div class="container-fluid">
+      <div class="row align-items-start">
+        <div class="col-4">
           <a class="logo-eduni">
             <img src="img/logo blanco.png" class="d-inline-block align-text-top">
           </a>
-          </div>
-          <div class="col-4">
+        </div>
+        <div class="col-4">
           <a class="logo-uni">
             <img src="img/logo UNI.png" class="d-inline-block align-text-top">
           </a> 
-          </div>
-          <div class="col text-end">
-            <ul class="navbar-nav login-menu text-decoration-underline">
-              <li class="navbar-perfil cuenta">
+        </div>
+        <div class="col-4">
+          <ul class="navbar-nav login-menu text-decoration-underline">
+            <li class="navbar-perfil cuenta">
+              <a href="./pedidos.html">
                 <img src="img/icono perfil.png" class="d-inline-block align-text-top">
-              </li>
-              <li class="nav-item cuenta">
-                <a class="nav-link color" href="./login.html">Iniciar sesión</a>
-              </li>
-              <li class="nav-item cuenta">
-                <a class="nav-link color" href="./register.html">Regístrate</a>
-              </li>
-            </ul>
-          </div>
+              </a>
+            </li>
+            <li class="nav-item cuenta">
+              <a class="nav-link color" href="./login.html">Iniciar sesión</a>
+            </li>
+            <li class="nav-item cuenta">
+              <a class="nav-link color" href="./register.html">Regístrate</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -56,7 +57,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav list-inline mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link color-menu" href="./index.html">Inicio</a>
           </li>
@@ -73,9 +74,22 @@
             <a class="nav-link color-menu" href="./novedades.html">Novedades</a>
           </li>
         </ul>
+        <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link color-menu" href="./favoritos.html">
+              <img src="img/icono_favoritos.png" alt=""> Favoritos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color-menu" href="./carrito.html">
+              <img src="img/icono carrito-compras.png" alt="">
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
+
   <!-- Vista inicio -->
   <div class="container-fluid py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-50">
@@ -87,7 +101,7 @@
             <div class="login text-left">
               <img src="img/mejores libros.png"alt="">
             </div>
-            <p class="parrafo">Adquiere las mejores ofertas y novedades de las publicaciones que realiza la editorial de la UNI sobre ingeniería, arquitectura, matemática, estadística, química, literatura, ciencias sociales y más.</p>
+            <p style="font-size: 22px;">Adquiere las mejores ofertas y novedades de las publicaciones que realiza la editorial de la UNI sobre ingeniería, arquitectura, matemática, estadística, química, literatura, ciencias sociales y más.</p>
             <form class="input-group pt-3">
               <input class="form-control form-control-lg" type="search" placeholder="Ingresa título, autor o palabra clave" aria-label="Search">
               <button class="btn btn-confirmar btn-lg" type="submit">Buscar</button>

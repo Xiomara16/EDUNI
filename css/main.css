@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar {
   /* Celeste */
   background: #27B3D2;
@@ -11,13 +12,20 @@
   font-size: 20px;
 }
 
+=======
+>>>>>>> 447b0dffb8d17c179f851c952a674fdbafe371ed
 .bg-color {
   background-color: #27B3D2;
   height: 116px;
 }
 
 .bg-categoria {
+<<<<<<< HEAD
   background-color: #abe1f1;
+=======
+  background-color: #27B3D2;
+  color: #292B41;
+>>>>>>> 447b0dffb8d17c179f851c952a674fdbafe371ed
 }
 
 /* .container-fluid {
@@ -97,19 +105,6 @@
 
 .tamaño {
   height: 620px;
-}
-
-.parrafo {
-  /* Adquiere las mejores ofertas y novedades de las publicaciones que realiza la editorial de la UNI sobre ingeniería, arquitectura, matemática, estadística, química, literatura, ciencias sociales y más. */
-  width: 530px;
-  height: 145px;
-  position: absolute;
-  top: 35%;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 29px;
-  color: #000000;
-
 }
 
 .new_link {
@@ -204,12 +199,8 @@
 }
 
 .letra {
-  font-family: 'Helvetica';
   font-size: 20px;
-  line-height: 24px;
-  font-weight: 400;
-  /* src: local(''),
-    url('../fonts/Montserrat-Regular.ttf') format('ttf'); */
+  line-height: 22px;
 }
 
 .nota {
@@ -278,18 +269,6 @@ img {
   height: 100;
   width: 100;
 }
-
-
-.parrafo {
-  margin-top: 2rem;
-  font-size: 24px;
-}
-
-
-/* .sidebar .active {
-  border-radius: 3px;
-  }
-   */
 
 .sidebar {
   position: fixed;
