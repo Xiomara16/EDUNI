@@ -1,7 +1,14 @@
 .navbar {
   /* Celeste */
   background: #27B3D2;
+}
 
+.nav-link {
+  color: #292B41;
+}
+
+.nav-item {
+  font-size: 20px;
 }
 
 .bg-color {
@@ -10,8 +17,7 @@
 }
 
 .bg-categoria {
-  background-color: #27B3D2;
-
+  background-color: #abe1f1;
 }
 
 /* .container-fluid {
@@ -163,17 +169,17 @@
 }
 
 .box-list {
-  padding-top: 40px;
+  padding-top: 15px;
 }
 
 .item {
   color: #292B41;
   /* Inter Bold 24 */
   font-family: 'Helvetica';
-  font-style: normal;
-  font-weight: 100;
-  padding-left: 5px;
+  padding-bottom: 10px;
+  font-size: 20px;
   text-decoration: none;
+  padding-left: 8px;
 }
 
 .tamaño-list {
@@ -223,8 +229,22 @@
   border-bottom-right-radius: 3rem;
 }
 
+/* Para descuentos del 35% - Color rojo*/
 .bgdescuento {
   background: #e02020;
+  color: white;
+  display: flex;
+  font-size: 22px;
+  width: 80px;
+  height: 52px;
+  padding: 6px;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+/* Para descuentos del 25%, 30% - Color naranja*/
+.bgdescuento2 {
+  background: #e06d20;
   color: white;
   display: flex;
   font-size: 22px;
