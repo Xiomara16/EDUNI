@@ -15,74 +15,87 @@
     <link rel="icon" href="img/icono inicio.png">
     <title>EDUNI - Tienda Virtual</title>
 </head>
-  <body>
-    <!-- Navigation-->
-    <nav id="header" class="navbar navbar-expand-lg bg-color">
-        <div class="container-fluid">
-            <div class="row align-items-start">
-            <div class="col-4">
-            <a class="logo-eduni">
-                <img src="img/logo blanco.png" class="d-inline-block align-text-top">
+<body>
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg bg-color">
+    <div class="container-fluid">
+      <div class="row align-items-start">
+        <div class="col-4">
+          <a class="logo-eduni">
+            <img src="img/logo blanco.png" class="d-inline-block align-text-top">
+          </a>
+        </div>
+        <div class="col-4">
+          <a class="logo-uni">
+            <img src="img/logo UNI.png" class="d-inline-block align-text-top">
+          </a> 
+        </div>
+        <div class="col-4">
+          <ul class="navbar-nav login-menu text-decoration-underline">
+            <li class="navbar-perfil cuenta">
+              <a href="./pedidos.html">
+                <img src="img/icono perfil.png" class="d-inline-block align-text-top">
+              </a>
+            </li>
+            <li class="nav-item cuenta">
+              <a class="nav-link color" href="./login.html">Iniciar sesión</a>
+            </li>
+            <li class="nav-item cuenta">
+              <a class="nav-link color" href="./register.html">Regístrate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
+  <!-- Menu -->
+  <nav class="navbar2 navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link color-menu" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color-menu" href="./libros.html">Libros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color-menu" href="./envios.html">Envíos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color-menu" href="./preguntas.html">Preguntas frecuentes</a>
+          </li>     
+          <li class="nav-item">
+            <a class="nav-link color-menu" href="./novedades.html">Novedades</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link color-menu" href="./favoritos.html">
+              <img src="img/icono_favoritos.png" alt=""> Favoritos
             </a>
-            </div>
-            <div class="col-4">
-            <a class="logo-uni">
-                <img src="img/logo UNI.png" class="d-inline-block align-text-top">
-            </a> 
-            </div>
-            <div class="col text-end">
-                <ul class="navbar-nav login-menu text-decoration-underline">
-                <li class="navbar-perfil cuenta">
-                    <img src="img/icono perfil.png" class="d-inline-block align-text-top">
-                </li>
-                <li class="nav-item cuenta">
-                    <a class="nav-link color" href="./login.html">Iniciar sesión</a>
-                </li>
-                <li class="nav-item cuenta">
-                    <a class="nav-link color" href="./register.html">Regístrate</a>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </div>
-        </div>
-    </nav>
-         
-    <!-- Menu -->
-    <nav class="navbar2 navbar-expand-lg">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav list-inline mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="./index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="#">Libros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="#">Envíos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="#">Preguntas frecuentes</a>
-                    </li>     
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="#">Novedades</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color-menu" href="./carrito.html">
+              <img src="img/icono carrito-compras.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
     <div class="container-fluid py-5 h-100">
         <div class="row p-md-3 d-flex justify-content-center align-items-center">
             <div class="col-xl-11">
                 <div class="row">
-                  <div class="col-lg-3">
+                  <div class="col-lg-4">
                     <div class="card-body mx-md-3">
-                        <div class="list-group d-inline-block mt-4">
+                        <div class="list-group d-inline-block mt-5">
                           <a class="list-group-item list-group-item-action py-2 ripple disabled">
                             <img src="img/icono mis pedidos.png" alt="">
                             <i class="fas fa-chart-bar fa-fw me-3"></i><span>Mis Pedidos</span></a>
@@ -95,28 +108,59 @@
                           <a href="#librosdigitales" class="list-group-item list-group-item-action py-2 ripple">
                             <i class="fas fa-lock fa-fw me-3"></i><span>Libros digitales</span></a>
                           <br> 
-                          <a href="#favoritos" class="list-group-item list-group-item-action py-2 ripple">
+                          <a href="favoritos" class="list-group-item list-group-item-action py-2 ripple">
                             <img src="img/icono favoritos.png" alt="">
                             <i class="fas fa-chart-bar fa-fw me-3"></i><span>Favoritos</span></a>
                           <br>
                           <a class="list-group-item list-group-item-action py-2 ripple disabled">
                             <img src="img/icono mis datos.png" alt="">
                             <i class="fas fa-chart-bar fa-fw me-3"></i><span>Mis Datos</span></a>
-                          <a href="#datospersonales" class="list-group-item list-group-item-action py-2 ripple">
+                          <a href="datospersonales" class="list-group-item list-group-item-action py-2 ripple">
                             <i class="fas fa-lock fa-fw me-3"></i><span>Datos personales</span></a>
-                          <a href="#direcciones" class="list-group-item list-group-item-action py-2 ripple">
+                          <a href="direcciones" class="list-group-item list-group-item-action py-2 ripple">
                             <i class="fas fa-lock fa-fw me-3"></i><span>Mis direcciones</span></a>
-                          <a href="#cambioclave" class="list-group-item list-group-item-action py-2 ripple">
+                          <a href="cambioclave" class="list-group-item list-group-item-action py-2 ripple">
                             <i class="fas fa-lock fa-fw me-3"></i><span>Cambio de clave</span></a>
-                          <a href="#facturacion" class="list-group-item list-group-item-action py-2 ripple">
+                          <a href="facturacion" class="list-group-item list-group-item-action py-2 ripple">
                             <i class="fas fa-lock fa-fw me-3"></i><span>Datos de facturación</span></a>
-                          <a href="#cambiaremail" class="list-group-item list-group-item-action py-2 ripple">
+                          <a href="cambiaremail" class="list-group-item list-group-item-action py-2 ripple">
                             <i class="fas fa-lock fa-fw me-3"></i><span>Cambiar email</span></a>
                           <br>                                  
-                          <a href="#eliminarcuenta" class="list-group-item list-group-item-action py-2 ripple">
+                          <a href="eliminarcuenta" class="list-group-item list-group-item-action py-2 ripple">
                             <img src="img/icono eliminar.png" alt="">
-                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Eliminar Cuenta</span></a>
-                              
+                            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Eliminar Cuenta</span></a>      
+                        </div>
+                    </div>  
+                  </div>
+                  <div class="col-lg-8" id="pedidos">
+                    <div class="card-body">
+                        <div class="mt-5">
+                          <h2 class="mt-1 mb-3 pb-1">Seguimiento de Pedido</h2>
+                          <p class="letra">No tienes ningún pedido en curso</p>     
+                          <p class="letra">¿Pagaste un pedido y no aparece a continuación?
+                            <button class="btn btn-lg btn-confirmar" type="submit">
+                              Mi pedido no aparece
+                            </button>
+                          </p>
+                          <form action="post">
+                            <p><span class="fw-bold">Importante:</span> Utiliza este formulario SOLO en caso de que realizaste el pago de un pedido y NO aparezca a continuación. Si el pedido por el cual deseas contactarnos aparece más abajo en esta pantalla, por favor utiliza el botón "Contáctanos" que aparece en ese pedido.</p>
+                          </form>       
+                        </div>
+                    </div>  
+                  </div>
+                  <div class="col-lg-8" id="librosdigitales">
+                    <div class="card-body">
+                        <div class="mt-5">
+                          <h2 class="mt-1 mb-3 pb-1">Productos Digitales</h2>
+                          <p class="letra">No tienes ningún pedido en curso</p>     
+                          <p class="letra">¿Pagaste un pedido y no aparece a continuación?
+                            <button class="btn btn-lg btn-confirmar" type="submit">
+                              Mi pedido no aparece
+                            </button>
+                          </p>
+                          <form action="post">
+                            <p><span class="fw-bold">Importante:</span> Utiliza este formulario SOLO en caso de que realizaste el pago de un pedido y NO aparezca a continuación. Si el pedido por el cual deseas contactarnos aparece más abajo en esta pantalla, por favor utiliza el botón "Contáctanos" que aparece en ese pedido.</p>
+                          </form>       
                         </div>
                     </div>  
                   </div>
