@@ -5,7 +5,7 @@ $email = strtoupper($_POST["email_uni"]);
 $clave = $_POST["pass_uni"];
 
 function error(){
-    header("Location:http://localhost/EDUNI/index.html?error=1");
+    header("Location:http://localhost/EDUNI/EDUNI/index.html?error=1");
 }
 
 function comprueba($email,$clave){
@@ -32,7 +32,7 @@ function comprueba($email,$clave){
             
         } else{
             mysqli_error($conexion);
-            header("Location:http://localhost/EDUNI/index.html?error=1"); 
+            header("Location:http://localhost/EDUNI/EDUNI/index.html?error=1"); 
         }
     } else {
         echo "ERROR: Could not able to execute $sql. " . mysqli_error($conexion);

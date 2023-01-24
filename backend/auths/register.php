@@ -14,7 +14,7 @@ function obtener_usuario($e_uni){
 }
 
 function error(){
-    header("Location:http://localhost/EDUNI/EDUNI/index.html?error=1");
+    header("Location:http://localhost/EDUNI/index.html?error=1");
 }
 
 function Registro($email,$clave){
@@ -35,7 +35,7 @@ function Registro($email,$clave){
     if (!isset($resp)) {
         header("Location:http://localhost/EDUNI/EDUNI/index.html?error=1");
     } else {
-        header("Location:http://localhost/EDUNI/EDUNI/index.html");
+        header("Location:http://localhost/EDUNI/index.html");
     }
     
 }
