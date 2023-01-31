@@ -144,7 +144,10 @@
                         <!-- INICIO SESION -->
                         <div class="login text-left p-4">
                             
-                            <h1 class="mt-1 mb-3 pb-1">Proyecto de Nación</h1>
+                            <h1 class="mt-1 mb-3 pb-1">
+                                Proyecto de Nación
+                                <a href="#"><img src="img/icono compartir.png" alt=""></a>
+                            </h1>
                             <h3 class="card-text mb-1">Alfonso López Chau</h3>
                             <br>
                             <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="1estrella"></span>
@@ -154,10 +157,17 @@
                             <span class="fa fa-star" onclick="calificar(this)" style="cursor: pointer;" id="5estrella"></span>
                             
                             <div class="row p-3">
-                                <div class="col text-md-start">
+                                <div class="col-lg-2 text-md-start">
                                     <h6 class="mb-0 text-black-50 text">
                                         <s><sup>S/.</sup>69.00</s></h6>
                                     <h3></s><sup>S/.</sup>44.85</h3>
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <form class="form-inline" id="form">
+                                        <label class="mr-2">Cantidad:</label>
+                                        <input type="number" class="form-control w-25" id="input-qty" name="qty" maxlength="5" value="1">
+                                        <button type="submit" class="btn btn-primary ml-2">Submit</button>
+                                    </form>                               
                                 </div>
                             </div>
                             <button class="btn btn-lg btn-confirmar" type="submit">Comprar</button>
