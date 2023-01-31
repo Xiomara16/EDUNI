@@ -17,9 +17,17 @@ body {
 }
 
 .space-icon {
-	height: 35px;
+	/* height: 35px;
 	width: 35px;
-	font-size: 22px;
+	border: 2px;
+	border-radius: 2px;
+	font-size: 22px; */
+	border-radius: 100%;
+}
+img.circular {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
 }
 
 .vertical-tab {
