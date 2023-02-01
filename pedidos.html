@@ -177,10 +177,45 @@
 								</p>
 								<div class="card border-2 p-4">
 									<form action="">
-										<p><span class="fw-bold">Importante:</span> Utiliza este formulario SOLO en caso de que realizaste el pago de un pedido y NO aparezca a continuación. Si el pedido por el cual deseas contactarnos aparece más abajo en esta pantalla, por favor utiliza el botón "Contáctanos" que aparece en ese pedido.</p>
+										<p class="p-contenido pt-3"><span class="fw-bold">Importante:</span> Utiliza este formulario SÓLO en caso de que realizaste el pago de un pedido y NO aparezca a continuación. Si el pedido por el cual deseas contactarnos aparece más abajo en esta pantalla, por favor utiliza el botón "Contáctanos" que aparece en ese pedido.</p>
 									</form>
+
+									<p class="login p-contenido pt-3">Este es el email que usaremos para contactar contigo: <a href="mailto:alonsoghc@gmail.com">jefatura.fondoeditorial@uni.edu.pe</a></p>
+									<p class="login p-contenido pt-3 mb-0">Monto pagado</a></p>
+									<div class="form-group row">
+										<label for="monto" class="col-form-label"> </label> 
+										<div class="col-4">
+										 	<input id="monto" name="monto" placeholder="Monto" class="form-control here" required="required" type="text">
+										</div>
+									</div> <br>
+									<p class="login p-contenido pt-3 mb-0">Medio de pago utilizado</a></p>
+									<div class="form-group row">
+										<label for="mediopago" class="col-form-label"> </label> 
+										<div class="col-4">
+										 	<input id="mediopago" name="mediopago" placeholder="Medio de pago" class="form-control here" required="required" type="text">
+										</div>
+									</div> <br>
+									<p class="login p-contenido pt-3 mb-0">Número de pedido (opcional)</a></p>
+									<div class="form-group row">
+										<label for="npedido" class="col-form-label"> </label> 
+										<div class="col-4">
+										 	<input id="npedido" name="npedido" placeholder="Medio de pedido" class="form-control here" required="required" type="text">
+										</div>
+									</div> <br>
+									<p class="login p-contenido pt-3">Por favor, adjúntenos una imagen del comprobante de pago.</a></p>
+									<div class="col-4">
+										<button class="btn btn-lg btn-confirmar" type="submit">
+											Adjuntar imagen +
+										</button>
+									</div> <br>
+									<p class="login p-contenido pt-3">Por favor, explíquenos detalladamente el problema.</a></p>
+									<textarea name="problema" id="problema" cols="30" rows="10"></textarea> <br>
+									<div class="col-end text-end">
+										<button class="btn btn-lg btn-confirmar" type="submit">
+											Enviar
+										</button>
+									</div>
 								</div>
-								 
 							</div>
 						</div>
 					</div>
@@ -195,31 +230,31 @@
 					<div class="tab-pane fade" id="datospersonales" role="tabpanel" aria-labelledby="tab-four">
 						<h3>Editar Datos Personales</h3> <hr>
 						<form>
-							<div class="form-group row">
+							<div class="form-group row pt-3">
 							  <label for="name" class="col-4 col-form-label">Nombres</label> 
 							  <div class="col-8">
 								<input id="name" name="name" placeholder="Nombres" class="form-control here" required="required" type="text">
 							  </div>
 							</div>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 							  <label for="surname" class="col-4 col-form-label">Apellidos</label> 
 							  <div class="col-8">
 								<input id="surname" name="surname" placeholder="Apellidos" class="form-control here" type="text">
 							  </div>
 							</div>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 							  <label for="email" class="col-4 col-form-label">Email asociado</label> 
 							  <div class="col-8">
 								<input id="email" name="email" placeholder="Email" class="form-control here" required="required" type="text">
 							  </div>
 							</div>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 							  <label for="birthday" class="col-4 col-form-label">Fecha de nacimiento</label> 
 							  <div class="col-8">
 								<input id="birthday" name="birthday" class="form-control here" type="date">
 							  </div>
 							</div>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 							  <div class="offset-4 col-8">
 								  <button name="submit" type="submit" class="btn btn-confirmar">Guardar</button>
 							  </div>
@@ -229,13 +264,13 @@
 					<div class="tab-pane fade" id="direcciones" role="tabpanel" aria-labelledby="tab-five">
 						<h3>Mis Direcciones</h3> <hr>
 						<form>
-							<div class="form-group">
+							<div class="form-group pt-3">
 							  <label for="address" class="col-4 col-form-label">Dirección guardada</label> 
 							  <div class="col-8">
 								<input id="address" name="address" placeholder="Dirección1" class="form-control here" required="required" type="text">
 							  </div>
 							</div>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 								<div class="col-8">
 								  <button name="submit" type="submit" class="btn btn-confirmar">Añadir otra dirección</button>
 								</div>
@@ -245,25 +280,25 @@
 					<div class="tab-pane fade" id="cambioclave" role="tabpanel" aria-labelledby="tab-six">
 						<h3>Cambiar clave</h3> <hr>
 						<form>
-							<div class="form-group row">
+							<div class="form-group row pt-3">
 							  <label for="pass" class="col-4 col-form-label">Clave actual</label> 
 							  <div class="col-8">
 								<input id="pass" name="pass" placeholder="Clave actual" class="form-control here" required="required" type="password">
 							  </div>
 							</div>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 							  <label for="newpass" class="col-4 col-form-label">Nueva clave</label> 
 							  <div class="col-8">
 								<input id="newpass" name="newpass" placeholder="Nueva clave" class="form-control here" required="required" type="password">
 							  </div>
 							</div>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 							  <label for="newpassagain" class="col-4 col-form-label">Reingrese Nueva clave</label> 
 							  <div class="col-8">
 								<input id="newpassagain" name="newpassagain" placeholder="Reingrese su Nueva clave" class="form-control here" required="required" type="password">
 							  </div>
 							</div>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 								<div class="offset-4 col-8">
 								  <button name="submit" type="submit" class="btn btn-confirmar">Guardar</button>
 								</div>
@@ -273,37 +308,37 @@
 					<div class="tab-pane fade" id="facturacion" role="tabpanel" aria-labelledby="tab-seven">
 						<h3>Datos de Facturación</h3> <hr>
 						<form>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 							  <label for="RUC" class="col-4 col-form-label">RUC</label> 
 							  <div class="col-8">
 								<input id="RUC" name="RUC" placeholder="RUC" class="form-control here" required="required" type="text">
 							  </div>
 							</div>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 							  <label for="razonsocial" class="col-4 col-form-label">Razón social</label> 
 							  <div class="col-8">
 								<input id="razonsocial" name="razonsocial" placeholder="Razón social" class="form-control here" required="required" type="text">
 							  </div>
 							</div>
-							<div class="form-group row pt-2">
+							<div class="form-group row pt-3">
 								<label for="giro" class="col-4 col-form-label">Giro</label> 
 								<div class="col-8">
 								  <input id="giro" name="giro" placeholder="Giro" class="form-control here" required="required" type="text">
 								</div>
 							  </div>
-							  <div class="form-group row pt-2">
+							  <div class="form-group row pt-3">
 								<label for="address" class="col-4 col-form-label">Dirección</label> 
 								<div class="col-8">
 								  <input id="address" name="address" placeholder="Dirección" class="form-control here" required="required" type="text">
 								</div>
 							  </div>
-							  <div class="form-group row pt-2">
+							  <div class="form-group row pt-3">
 								<label for="phone" class="col-4 col-form-label">Teléfono</label> 
 								<div class="col-8">
 								  <input id="phone" name="phone" placeholder="Teléfono" class="form-control here" required="required" type="text">
 								</div>
 							  </div>
-							  <div class="form-group row pt-2">
+							  <div class="form-group row pt-3">
 								<div class="offset-4 col-8">
 								  <button name="submit" type="submit" class="btn btn-confirmar">Guardar</button>
 								</div>
@@ -313,7 +348,7 @@
 					<div class="tab-pane fade" id="cambiaremail" role="tabpanel" aria-labelledby="tab-eight">
 						<h3>Cambiar email</h3> <hr>
 						<form>
-							<div class="form-group row">
+							<div class="form-group row pt-3">
 							  <label for="newemail" class="col-4 col-form-label">
 								Nuevo email <br>
 								<span style="font-size: 14px;">(Email Actual: correo@gmai.com)</span>
@@ -332,7 +367,7 @@
 					<div class="tab-pane fade" id="eliminarcuenta" role="tabpanel" aria-labelledby="tab-nine">
 						<h3>Eliminar cuenta</h3> <hr>
 						<p class="p-contenido pt-3">¿Estás seguro de eliminar tu cuenta? No podrás deshacer esta acción. Tu cuenta será eliminada permanentemente.</p>
-						<div class="form-group row">
+						<div class="form-group row pt-3">
 							<div class="col-8">
 							  <button name="submit" type="submit" class="btn btn-danger">Eliminar mi cuenta</button>
 							</div>
