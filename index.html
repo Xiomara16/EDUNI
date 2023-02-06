@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/pedidos.css">
 
-
     <!-- Imagen del logo y título -->
     <link rel="icon" href="img/icono inicio.png">
     <title>EDUNI - Tienda Virtual</title>
@@ -556,79 +555,63 @@
 <!-- Columnas -->
 
   <!-- Footer -->
-  <footer class="footer-content">
-    <!-- Section: Links  -->  
-      <div class="container text-center text-md-start">
-        <!-- Grid row -->
-        <div class="row mt-1">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto p-2">
-            <!-- Content -->
-            <div class="btn-group-vertical p-4">
-              <img src="img/logo blanco.png">
-              <br><br>
-              <img src="img/logo UNI.png">
+  <footer>
+    <div class="container-fluid">
+      <!-- Grupo 1 - Links -->
+      <div class="row bg-color p-4 px-5">
+        <!-- Logos -->
+        <div class="col-lg-4 col-md-6 col-xs-12 d-flex flex-column justify-content-center">
+          <ul class="list-unstyled mx-auto">
+            <li class="mb-5"><img src="img/logo blanco.png"></li>
+            <li class="mb-2"><img src="img/logo UNI.png"></li>
+          </ul>
+        </div>
+        <!-- Links -->
+        <div class="col-lg-4 col-md-6 col-xs-12 d-flex flex-column">
+          <ul class="list-unstyled color-white mx-auto">
+            <li class="mb-2">Términos y condiciones  </li>
+            <li class="mb-2">Privacidad y seguridad  </li>
+            <li class="mb-2">Cómo comprar            </li>
+            <li class="mb-2">Nuestras formas de pago </li>
+            <li class="mb-2">Costos de envío         </li>
+            <li class="mb-2">Libro de reclamaciones  </li>
+          </ul>
+        </div>
+        <!-- Suscripción a publicidad -->
+        <form class="col-lg-4 col-md-6 col-xs-12 mt-1 d-flex flex-column mx-auto px-lg-5">
+            <label class="color-white px-lg-5 px-4">Suscríbete para recibir ofertas y promociones</li>
+            <div class="input-group pt-3">
+              <input type="email" class="form-control form-control-lg bg-white" placeholder="Email">
+              <button type="button" class="btn btn-lg btn-rounded-right text-white active">Enviar</button>
             </div>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="suscribete col-md-2 col-lg-2 col-xl-3 mx-auto mb-2 text-decoration-none">
-            <!-- Links -->
-            <p><a href="#!" class="text-reset">Términos y condiciones</a></p>
-            <p><a href="#!" class="text-reset">Políticas de devolución</a></p>
-            <p><a href="#!" class="text-reset">Privacidad y seguridad</a></p>
-            <p><a href="#!" class="text-reset">Cómo comprar</a></p>
-            <p><a href="#!" class="text-reset">Nuestras formas de pago</a></p>
-            <p><a href="#!" class="text-reset">Costos de despacho</a></p>
-            <p><a href="#!" class="text-reset">Libro de reclamaciones</a></p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="suscribete col-md-4 col-lg-2 col-xl-3 mx-auto mb-md-0 mb-3">
-            <!-- Links -->
-              <p>Suscríbete para recibir ofertas y promociones</p>              
-                <div class="input-group">
-                  <input type="email" class="form-control form-control-lg"
-                  placeholder="Email">
-                  <button type="button"  class="btn btn-confirmar btn-lg active"> 
-                  Enviar
-                  </button>
-                  </div>   
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
+        </form>        
       </div>
-    <!-- Section: Links  -->
-  
-    <div class="footer-creditos p-4">
-      <div class="row mt-2">
-        <div class="col-9 justify-content-end">
-        Av. Tupac Amaru N°210 Rímac, Sótano del Pabellón Central de la UNI - Lima, Perú
+      <!-- Grupo 2 - Direccion y Redes sociales -->
+      <div class="row bg-white text-black p-3 text-center">
+        <div class="col-xs-12 col-md-12 col-lg-7 px-5 mb-3">
+          Av. Tupac Amaru N°210 Rímac, Sótano del Pabellón Central de la UNI - Lima, Perú
         </div>
-        <div class="col">
-        Siguenos en:
+        <div class="col-xs-12 col-md-12 col-lg-5">
+          Siguenos en
           <!-- Facebook -->
-          <a href="https://es-la.facebook.com/">
+          <a href="https://es-la.facebook.com/" class="text-decoration-none mx-1">
             <img src="img/facebook.png">
           </a>
           <!-- Instagram -->
-          <a href="https://es-la.facebook.com/">
+          <a href="https://es-la.facebook.com/" class="text-decoration-none mx-1">
             <img src="img/instagram.png">
           </a>
           <!-- Twitter -->
-          <a href="https://es-la.facebook.com/">
+          <a href="https://es-la.facebook.com/" class="text-decoration-none mx-1">
             <img src="img/twitter.png">
           </a>
         </div>
       </div>
     </div>
   </footer>
-  <!-- Footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+
 </body>
 </html>

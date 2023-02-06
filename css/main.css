@@ -11,11 +11,6 @@
   font-size: 20px;
 }
 
-.bg-color {
-  background-color: #27B3D2;
-  height: 116px;
-}
-
 .bg-categoria {
   background-color: #abe1f1;
   color: #292B41;
@@ -107,25 +102,12 @@
   color: #27B3D2;
 }
 
-.footer-content {
-  padding-top: 30px;
-  background: #27B3D2;
-  height: 340px;
-}
-
 .text-reset {
   /* Light 20 */
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   text-decoration: none;
-  color: #FFFFFF;
-}
-
-.suscribete {
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
   color: #FFFFFF;
 }
 
@@ -265,3 +247,40 @@ img {
   position: absolute;
   left: 42%;
 }
+
+/* FOOTER */
+
+/* .footer-content {
+    position: absolute;
+    bottom: 0;
+  }  */
+  
+  .footer-content .row div p a{
+    color: inherit;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .suscribete {
+    color: inherit;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .bg-color {
+    background-color: #27B3D2;
+  }
+  
+  .color-white{
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  
+  .btn-rounded-right {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-color: white;
+    border-width: 3px;
+  }
