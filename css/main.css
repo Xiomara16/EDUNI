@@ -250,17 +250,12 @@ img {
 
 /* FOOTER */
 
-/* .footer-content {
-    position: absolute;
-    bottom: 0;
-  }  */
-  
-  .footer-content .row div p a{
+  /* .footer-content .row div p a{
     color: inherit;
     font-size: 20px;
     color: #FFFFFF;
     text-decoration: none;
-  }
+  } */
   
   .suscribete {
     color: inherit;
@@ -279,8 +274,8 @@ img {
   }
   
   .btn-rounded-right {
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
     border-color: white;
     border-width: 3px;
   }
