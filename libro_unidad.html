@@ -19,64 +19,64 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav id="header" class="navbar navbar-expand-lg bg-color">
+  <!-- Header -->
+  <header class="container-fluid">
+    <div class="row bg-color p-3 px-5">
+      <div class="col-lg-4 col-md-12 col-xs-12 d-flex justify-content-center">
+        <img class="mb-3 mt-3" src="img/logo blanco.png" alt="logo EDUNI">
+      </div>
+      <div class="col-lg-4 d-none d-md-block d-flex justify-content-center text-center">
+        <img class="mb-3 mt-3" src="img/logo UNI.png" alt="logo UNI">
+      </div>
+      <div class="col-lg-4 col-md-12 col-xs-12 conf-perfil">
+          <a class="px-2" href="./pedidos.html"><img src="img/icono perfil.png"></a>
+          <a class="px-2 color-white" href="./login.html">Inicia sesión</a>
+          <a class="px-2 color-white" href="./register.html">Regístrate</a>
+      </div>
+      <div class="d-block d-sm-none text-center">
+        <button class="navbar-toggler navbar-light p-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+    </div>
+    <div class="row px-5 mx-4">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <div class="row align-items-start">
-                <div class="col-4">
-                    <a class="logo-eduni">
-                        <img src="img/logo blanco.png" class="d-inline-block align-text-top">
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a class="logo-uni">
-                        <img src="img/logo UNI.png" class="d-inline-block align-text-top">
-                    </a> 
-                </div>
-                <div class="col text-end">
-                    <ul class="navbar-nav login-menu text-decoration-underline">
-                        <li class="navbar-perfil cuenta">
-                            <img src="img/icono perfil.png" class="d-inline-block align-text-top">
-                        </li>
-                        <li class="nav-item cuenta">
-                            <a class="nav-link color" href="./login.html">Iniciar sesión</a>
-                        </li>
-                        <li class="nav-item cuenta">
-                            <a class="nav-link color" href="./register.html">Regístrate</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+          <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./index.html">Inicio</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./libros.html">Libros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./envios.html">Costos de envíos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./preguntas.html">Preguntas frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./novedades.html">Novedades</a> 
+              </li>
+            </ul>
+            <ul class="navbar-nav me-5 mb-2">
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./favoritos.html">
+                  <img src="img/icono_favoritos.png" alt=""> Favoritos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./carrito.html">
+                  <img src="img/icono carrito-compras.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-    
-    <!-- Menu -->
-    <nav class="navbar2 navbar-expand-lg">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav list-inline mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="./index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="./libros.html">Libros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="./envios.html">Costos de envío</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="./preguntas.html">Preguntas frecuentes</a>
-                    </li>     
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="./novedades.html">Novedades</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+      </nav>
+    </div>
+  </header>  
     
     <!-- Columnas -->
     <div class="container-fluid pt-5 mt-5">

@@ -19,260 +19,246 @@
   </head>
 
 <body>
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg bg-color">
-    <div class="container-fluid">
-      <div class="row align-items-start">
-        <div class="col-4">
-          <a class="logo-eduni">
-            <img src="img/logo blanco.png" class="d-inline-block align-text-top">
-          </a>
-        </div>
-        <div class="col-4">
-          <a class="logo-uni">
-            <img src="img/logo UNI.png" class="d-inline-block align-text-top">
-          </a> 
-        </div>
-        <div class="col-4">
-          <ul class="navbar-nav login-menu text-decoration-underline">
-            <li class="navbar-perfil cuenta">
-              <a href="./pedidos.html">
-                <img src="img/icono perfil.png" class="d-inline-block align-text-top">
-              </a>
-            </li>
-            <li class="nav-item cuenta">
-              <a class="nav-link color" href="./login.html">Iniciar sesión</a>
-            </li>
-            <li class="nav-item cuenta">
-              <a class="nav-link color" href="./register.html">Regístrate</a>
-            </li>
-          </ul>
-        </div>
+  <!-- Header -->
+  <header class="container-fluid">
+    <div class="row bg-color p-3 px-5">
+      <div class="col-lg-4 col-md-12 col-xs-12 d-flex justify-content-center">
+        <img class="mb-3 mt-3" src="img/logo blanco.png" alt="logo EDUNI">
+      </div>
+      <div class="col-lg-4 d-none d-md-block d-flex justify-content-center text-center">
+        <img class="mb-3 mt-3" src="img/logo UNI.png" alt="logo UNI">
+      </div>
+      <div class="col-lg-4 col-md-12 col-xs-12 conf-perfil">
+          <a class="px-2" href="./pedidos.html"><img src="img/icono perfil.png"></a>
+          <a class="px-2 color-white" href="./login.html">Inicia sesión</a>
+          <a class="px-2 color-white" href="./register.html">Regístrate</a>
+      </div>
+      <div class="d-block d-sm-none text-center">
+        <button class="navbar-toggler navbar-light p-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
       </div>
     </div>
-  </nav>
+    <div class="row px-5 mx-4">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./index.html">Inicio</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./libros.html">Libros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./envios.html">Costos de envíos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./preguntas.html">Preguntas frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./novedades.html">Novedades</a> 
+              </li>
+            </ul>
+            <ul class="navbar-nav me-5 mb-2">
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./favoritos.html">
+                  <img src="img/icono_favoritos.png" alt=""> Favoritos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-menu" href="./carrito.html">
+                  <img src="img/icono carrito-compras.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>  
+
+  <div class="container-fluid h-100">
+    <div class="row d-flex justify-content-center align-items-center h-50">
+      <div class="col-xl-11">
+        <div class="row">
+          <div class="card-body p-md-5 mx-md-4">
     
-  <!-- Menu -->
-  <nav class="navbar2 navbar-expand-lg">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link color-menu" href="./index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link color-menu" href="./libros.html">Libros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link color-menu" href="./envios.html">Costos de envío</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link color-menu" href="./preguntas.html">Preguntas frecuentes</a>
-          </li>     
-          <li class="nav-item">
-            <a class="nav-link color-menu" href="./novedades.html">Novedades</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav me-5 mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link color-menu" href="./favoritos.html">
-              <img src="img/icono_favoritos.png" alt=""> Favoritos
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link color-menu" href="./carrito.html">
-              <img src="img/icono carrito-compras.png" alt="">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+            <!-- Preguntas frecuentes -->
+            <div class="login text-left pt-5">
+              <h1 class="mt-1 mb-5 pb-1">
+                Preguntas frecuentes
+              </h1>
+            </div>
 
-  <section class="h-100 gradient-form">
-    <div class="container-fluid py-5 h-100">
-      <div class="row d-flex justify-content-center align-items-center h-50">
-        <div class="col-xl-11">
-          <div class="row">
-              <div class="card-body p-md-5 mx-md-4">
-    
-    <!-- Preguntas frecuentes -->
-    <div class="login text-left pt-5">
-      <h1 class="mt-1 mb-5 pb-1">
-        Preguntas frecuentes
-      </h1>
-    </div>
+            <!-- Always open - Siempre abierto -->
+            <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+              <!-- Item 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                    <p class="fw-bold">
+                      ¿Tienen tienda física?
+                    </p>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    <p class="login">
+                      Sí, puedes comprar en el Fondo editorial de la UNI ubicado en el Sótano del Pabellón Central.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    <p class="fw-bold">
+                      ¿Cómo realizar mi compra?
+                    </p>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <p class="login">
+                      Si eres nuevo en nuestro sitio, lo primero que debes realizar es “Registrarte“ con un email al cual tengas acceso porque es ahí donde enviaremos toda la información relevante asociada a tu compra. <br>
+                      Después de eso visita nuestro catálogo de Libros. <br>
+                      Como último consejo, revisa los plazos de entrega que te indicamos. Dale clic al carrito de compras, revisa nuevamente tus datos personales y de envío o recojo y luego da clic en pagar para que elijas tu medio de pago.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    <p class="fw-bold">
+                      ¿Cómo hago seguimiento a mi compra?
+                    </p> 
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    <p class="login">
+                      El seguimiento de tu compra puedes realizarlo directamente en tu perfil en la sección de “Seguimiento de pedidos” donde está cada una de las etapas descritas en las siguientes casillas: <br>
+                      <ul>
+                        <li class="login">
+                          Obteniendo Productos: Es el inicio de todo el proceso, donde realizamos la compra de tu producto y/o libro al proveedor.
+                        </li>
+                        <li class="login">
+                          Solicitado al Proveedor: Ya hemos enviado una orden de compra al proveedor y estamos esperando que nos envíe el producto y/o libro a nuestra oficina. Aquí debemos esperar la confirmación de stock y entrega en nuestra oficina de origen.
+                        </li>
+                        <li class="login">
+                          En Oficina de Origen: Tu libro y/o producto ya llegó a nuestra oficina en origen (franquicia) y comenzaremos el proceso logístico de importación al país de destino.
+                        </li>
+                        <li class="login">
+                          Viajando: Tu compra ya se encuentra en tránsito (avión o barco) desde el país de origen a tu país de destino. Este proceso podría tardar entre cinco y diez días aproximadamente.
+                        </li>
+                        <li class="login">
+                          En Oficina de Envío: Tu producto ya llegó a nuestra bodega y podríamos despacharlo a tu domicilio. El proceso de embalaje y despacho solo comenzará cuando todos los productos de tu pedido se encuentren en bodega. Si tu compra es solo por un producto, en un par de días debe ser despachado.
+                        </li>  
+                        <li class="login">
+                          Enviado: Tu pedido ha sido despachado. Puedes hacer el seguimiento de entrega en la web de la empresa de despacho que enviamos a tu correo electrónico.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    <p class="fw-bold">
+                      ¿Quieres cambiar tu dirección?
+                    </p>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                    <p class="login">
+                      Antes de comprar puedes agregar o eliminar direcciones en tu perfil en la sección MIS DIRECCIONES y podrás elegir la que desees al momento de la compra.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                    <p class="fw-bold">
+                      ¿Puedo anular una compra?
+                    </p>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                  <div class="accordion-body">
+                    <p class="login">
+                      No es posible anular una compra.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 6 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                  <button class="accordion-button collapsed type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                    <p class="fw-bold">
+                      ¿Cómo pido el reembolso de dinero?
+                    </p>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                  <div class="accordion-body">
+                    <p class="login">
+                      No realizamos reembolsos o devoluciones de dinero.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 7 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                    <p class="fw-bold">
+                      Garantía Legal, Cambios y/o Devoluciones de productos.
+                    </p>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                  <div class="accordion-body">
+                    <p class="login">
+                      Solo aceptamos cambios de productos en caso de que estos presenten fallas, deberán comunicarlo o acercarse para presentar la solicitud en un plazo no mayor a 5 días hábiles. No hacemos devoluciones.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Label -->   
+            <h4 class="pt-5 p-2">
+              <label for="exampleFormControlTextarea1" class="login form-label pb-4 fw-normal">¿Tienes alguna pregunta o sugerencia?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Escribe aquí"></textarea>
+            </h4>
 
-    <!-- Always open - Siempre abierto -->
-    <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
-      <!-- Item 1 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-            <p class="fw-bold">
-              ¿Tienen tienda física?
+            <!-- Botón enviar -->
+            <div class="pt-1 p-2">
+              <button class="btn btn-lg btn-confirmar" type="submit">
+                Enviar mi pregunta
+              </button>
+            </div>
+          
+            <p class="pt-1 p-2 login">
+              Tu pregunta/sugerencia se enviará a: <a href="mailto:jefatura.fondoeditorial@uni.edu.pe">jefatura.fondoeditorial@uni.edu.pe</a> y será atendida en un rango de 2 a 3 días hábiles.
             </p>
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-          <div class="accordion-body">
-            <p class="login">
-              Sí, puedes comprar en el Fondo editorial de la UNI ubicado en el Sótano del Pabellón Central.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Item 2 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-            <p class="fw-bold">
-              ¿Cómo realizar mi compra?
-            </p>
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-          <div class="accordion-body">
-            <p class="login">
-              Si eres nuevo en nuestro sitio, lo primero que debes realizar es “Registrarte“ con un email al cual tengas acceso porque es ahí donde enviaremos toda la información relevante asociada a tu compra. <br>
-              Después de eso visita nuestro catálogo de Libros. <br>
-              Como último consejo, revisa los plazos de entrega que te indicamos. Dale clic al carrito de compras, revisa nuevamente tus datos personales y de envío o recojo y luego da clic en pagar para que elijas tu medio de pago.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Item 3 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-            <p class="fw-bold">
-              ¿Cómo hago seguimiento a mi compra?
-            </p> 
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-          <div class="accordion-body">
-            <p class="login">
-              El seguimiento de tu compra puedes realizarlo directamente en tu perfil en la sección de “Seguimiento de pedidos” donde está cada una de las etapas descritas en las siguientes casillas: <br>
-              <ul>
-                <li class="login">
-                  Obteniendo Productos: Es el inicio de todo el proceso, donde realizamos la compra de tu producto y/o libro al proveedor.
-                </li>
-                <li class="login">
-                  Solicitado al Proveedor: Ya hemos enviado una orden de compra al proveedor y estamos esperando que nos envíe el producto y/o libro a nuestra oficina. Aquí debemos esperar la confirmación de stock y entrega en nuestra oficina de origen.
-                </li>
-                <li class="login">
-                  En Oficina de Origen: Tu libro y/o producto ya llegó a nuestra oficina en origen (franquicia) y comenzaremos el proceso logístico de importación al país de destino.
-                </li>
-                <li class="login">
-                  Viajando: Tu compra ya se encuentra en tránsito (avión o barco) desde el país de origen a tu país de destino. Este proceso podría tardar entre cinco y diez días aproximadamente.
-                </li>
-                <li class="login">
-                  En Oficina de Envío: Tu producto ya llegó a nuestra bodega y podríamos despacharlo a tu domicilio. El proceso de embalaje y despacho solo comenzará cuando todos los productos de tu pedido se encuentren en bodega. Si tu compra es solo por un producto, en un par de días debe ser despachado.
-                </li>  
-                <li class="login">
-                  Enviado: Tu pedido ha sido despachado. Puedes hacer el seguimiento de entrega en la web de la empresa de despacho que enviamos a tu correo electrónico.
-                </li>
-              </ul>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Item 4 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-            <p class="fw-bold">
-              ¿Quieres cambiar tu dirección?
-            </p>
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-          <div class="accordion-body">
-            <p class="login">
-              Antes de comprar puedes agregar o eliminar direcciones en tu perfil en la sección MIS DIRECCIONES y podrás elegir la que desees al momento de la compra.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Item 5 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-            <p class="fw-bold">
-              ¿Puedo anular una compra?
-            </p>
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-          <div class="accordion-body">
-            <p class="login">
-              No es posible anular una compra.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Item 6 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
-          <button class="accordion-button collapsed type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-            <p class="fw-bold">
-              ¿Cómo pido el reembolso de dinero?
-            </p>
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
-          <div class="accordion-body">
-            <p class="login">
-              No realizamos reembolsos o devoluciones de dinero.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Item 7 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
-            <p class="fw-bold">
-              Garantía Legal, Cambios y/o Devoluciones de productos.
-            </p>
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
-          <div class="accordion-body">
-            <p class="login">
-              Solo aceptamos cambios de productos en caso de que estos presenten fallas, deberán comunicarlo o acercarse para presentar la solicitud en un plazo no mayor a 5 días hábiles. No hacemos devoluciones.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-     
-    <!-- Label -->   
-    <div class="pt-5">
-      <label for="exampleFormControlTextarea1" class="login form-label pb-4 p-2 fw-bold">¿Tienes alguna pregunta o sugerencia?</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe aquí"></textarea>
-    </div>
 
-    <!-- Botón enviar -->
-    <div class="pt-4 pb-4">
-      <button class="btn btn-primary" type="submit">
-        Enviar mi pregunta
-      </button>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
   
-    <p class="login">
-      Tu pregunta/sugerencia se enviará a: <a href="mailto:jefatura.fondoeditorial@uni.edu.pe">jefatura.fondoeditorial@uni.edu.pe</a> y será atendida en un rango de 2 a 3 días hábiles.
-    </p>
-
-
-  </div></div></div></div></div>
-
-  </section>
-
   <!-- Footer -->
   <footer>
     <div class="container-fluid">
