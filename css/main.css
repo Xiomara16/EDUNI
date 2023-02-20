@@ -6,9 +6,17 @@
   font-size: 20px;
 }
 
+.max-tamaño {
+  max-width: 87%;
+}
+
 .bg-categoria {
   background-color: #abe1f1;
   color: #292B41;
+}
+
+.primary {
+  /* max-width: 87%; */
 }
 
 .logo-eduni {
